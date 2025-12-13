@@ -1,0 +1,24 @@
+name,type,description_ro,description_en,example
+entity_id,string,Cheie publică stabilă a înregistrării.,Stable public record key.,LDI1-RO-BS-GWR9-BV3C-41
+name,string,Denumirea organizației.,Organization name.,Black Beauty Salon Constanta
+category_raw,string,Categorie din sursă (neprocesată).,Raw category from source.,Salon de înfrumusețare
+address_clean,string,Adresă normalizată.,Normalized address.,"Strada Avram Iancu nr 63, Constanța"
+postcode_digits,string,Cod poștal (completat cu zerouri la stânga după caz).,Postal code (left-padded with zeros if needed).,900178
+city_market,string,Oraș (alocare de piață).,City (market assignment).,Constanța
+lat,float,Latitudine (WGS84).,Latitude (WGS84).,44.1793758
+lon,float,Longitudine (WGS84).,Longitude (WGS84).,28.6380414
+website_norm,string,Website normalizat.,Normalized website.,https://www.blackbeautysalon.ro/preturi-servicii/
+phones_e164,string,Telefoane în format internațional E.164 (mai multe — separate prin „|”).,Phones in international E.164 format (multiple separated by “|”).,+40727039202|+40214123456
+emails_final_clean,string,Adrese de email curățate (mai multe — separate prin „|”).,Cleaned email addresses (multiple separated by “|”).,info@brand.ro|contact@brand.ro
+facebook_url_final_clean_best,string,Cel mai bun URL Facebook (pagină/profil).,Best Facebook URL (page/profile).,https://www.facebook.com/IleanaCosanzeanaBeautySalon
+instagram_url_final_clean_best,string,Cel mai bun URL Instagram.,Best Instagram URL.,https://instagram.com/luxurypearl.beauty
+whatsapp_url_final_clean_best,string,Cel mai bun URL WhatsApp (api/wa.me).,Best WhatsApp URL (api/wa.me).,https://api.whatsapp.com/send?phone=40734230230
+youtube_url_final_clean_best,string,Cel mai bun URL YouTube (canal/handle).,Best YouTube URL (channel/handle).,https://www.youtube.com/@brandchannel
+tiktok_url_final_clean_best,string,Cel mai bun URL TikTok.,Best TikTok URL.,https://www.tiktok.com/@scopebeauty
+linkedin_url_final_clean_best,string,Cel mai bun URL LinkedIn (company/in/school).,Best LinkedIn URL (company/in/school).,https://www.linkedin.com/company/brand-ro/
+telegram_url_final_clean_best,string,Cel mai bun URL Telegram (canal/profil).,Best Telegram URL (channel/profile).,https://t.me/brand_ro
+twitter_url_final_clean_best,string,Cel mai bun URL X/Twitter.,Best X/Twitter URL.,https://x.com/brand_ro
+pinterest_url_final_clean_best,string,Cel mai bun URL Pinterest.,Best Pinterest URL.,https://www.pinterest.com/brandro/
+google_maps_url,string,Link către pagina Google Maps a locației.,Link to the business’s Google Maps page.,https://www.google.com/maps/place/?q=place_id:PLACE_ID
+open_status_norm,string,Stare deschidere (open/unspecified — dacă datele lipsesc).,Open status (open/unspecified — if data unavailable).,open
+working_hours,string,Program de lucru într-un format ușor de citit.,Human-readable opening hours.,sâmbătă: 10–16; duminică: Închis; luni: Închis; marți: 10–18; miercuri: 10–18; joi: 10–18; vineri: 10–18
